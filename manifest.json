@@ -1,0 +1,28 @@
+{
+    "name": "TopSites Finder",
+    "description": "An Extension to see Top Sites u visited!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background":
+    {
+        "service_worker":"background.js"
+    },
+    "permissions":["storage","topSites"],
+    "action":
+    {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16":"icon1.png",
+            "32":"icon1.png",
+            "48":"icon1.png",
+            "128":"icon1.png"
+        }
+    },
+    "icons":
+    {
+        "16":"icon1.png",
+        "32":"icon1.png",
+        "48":"icon1.png",
+        "128":"icon1.png"
+    }
+  }
